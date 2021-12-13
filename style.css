@@ -1,0 +1,71 @@
+
+body{
+    
+  background-image: url(pexels-pixabay-159711.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* background-size: 100%; */
+    /* background-color: #17a2b8; */
+    
+    /* color: white; */
+    /* background-color: rgb(41, 211, 202); */
+}
+h1 {
+    color:rgb(26, 27, 29);
+    
+}
+.form{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 1px solid rgb(10, 10, 10) ;
+    border-radius: 10px;
+    background-color: #EEEBDD;
+}
+
+.form *{
+    margin: 10px 5px;
+    width: 80%; 
+    border-radius: 3px;
+    height: 30px;
+}
+
+.radiob{
+    width: 25px;
+}
+
+label{
+    width: 70%;
+}
+table{
+    border-color: antiquewhite;
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+    
+}
+td{
+    border: 1px solid rgb(36, 36, 34);
+}
+tr {
+background-color: #EEEBDD
+
+}
+
+.supprimer{
+    color: red;
+    cursor: pointer;
+}
+
+
+
+/* // function test(){
+    //     if(document.form.titre.value=="" || document.form.auteur.value=="" 
+    //     || document.form.DateDePublication.value=="" 
+    //     || document.form.titre.value=="");
+    
+    // }
+    // alert('Remplire les champs!'); */
+    /* html
+    <input type="button" name="valider" value="valider" onClick="javascript:test();"> */

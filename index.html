@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="Français">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>biblioges</title>
+</head>
+<body>
+    
+    <div class='form'>
+        <h1>Ajouter un livre</h1>
+        <input type="text" required placeholder="Titre" id="Titre" >
+        <input type="text" placeholder="Auteur" id="Auteur" >
+        <input type="number" step="0.01" placeholder="Prix" id="Prix" >
+        <input type="text" placeholder="Date de publication" id="Datedepublication" ><br>
+        <select  id="langue">
+            <option value="Arabe"> Arabe </option>
+            <option value="Français">Français</option>
+            <option value="Anglais">Anglais</option> <br>
+        </select>
+        <br>
+        <label>
+            <input checked class="radiob" name="category" type="radio" value="Roman"> Roman 
+        </label>
+        <label>
+            <input class="radiob" name="category" type="radio" value="Essai"> Essai
+        </label>
+        <label>
+            <input class="radiob" name="category" type="radio" value="Bande-Dessinée"> Bande-Dessinée 
+        </label>
+                 
+        <button id="ajout" onclick="ajouter();">Ajouter</button>
+        <button disabled id="enregistre" onclick="enregistrer();">Enregistrer</button> <br>
+        
+
+    </div> <br>
+
+
+    <table border="6" cellpadding='9'cellspacing='0'>
+        <thead>
+            <tr>
+                <th>Titre</th>
+                <th>Auteur</th>
+                <th>Prix</th>
+                <th>Date de publication</th>
+                <th>Langue</th>
+                <th>Type</th>
+                <th>Modifier</th>
+                <th>suprimer</th>
+            </tr>
+           
+        </thead>
+        <tbody id="lignes">
+        </tbody>
+    </table>
+
+
+</body>
+<script src="script.js"></script>
+</html>
